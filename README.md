@@ -28,8 +28,8 @@ to check it:
 1. Download this code and store it in a folder
 2. Create a new virtual environment
     ```sh
-    python3 -m venv tks_challenge
-    source ./tks_challenge/bin/activate
+    python3 -m venv app
+    source ./app/bin/activate
     ```
 3. Install requirements:
     ```sh
@@ -77,9 +77,9 @@ Alternatively, you can run the server using a docker image.
 
 1. Install Docker in your laptop.
 
-2. Build the docker image from the root directory of the challenge project folder
+2. Build the docker image from the root directory of the project folder
    ```sh
-    docker build -t tks-challenge:latest -f Dockerfile .
+    docker build -t app:latest -f Dockerfile .
    ```
 3. Make sure you have the 5000 port available. If it's not the case, you can stop the current process in the 5000 port
    by executing
@@ -88,7 +88,7 @@ Alternatively, you can run the server using a docker image.
    ```
 4. Then run the
    ```sh
-   docker run -p 5000:5000 tks-challenge
+   docker run -p 5000:5000 app
    ```
 5. Use a curl to obtain the response from the dockerized server
    ```sh
