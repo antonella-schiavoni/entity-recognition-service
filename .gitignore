@@ -1,0 +1,8 @@
+
+.DS_Store
+*.pyc
+*.xml
+.idea
+src/__pycache__/entity_recognizer_model.cpython-38.pyc
+.ipynb_checkpoints/Untitled-checkpoint.ipynb
+.ipynb_checkpoints/spicy_preprocessing-checkpoint.ipynb

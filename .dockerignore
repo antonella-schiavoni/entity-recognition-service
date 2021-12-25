@@ -1,0 +1,6 @@
+tks
+*.ipynb
+.ipynb_checkpoints
+.pyteest_cache
+tests
+README.md
