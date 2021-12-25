@@ -1,7 +1,6 @@
 ## About The Project
 
-In this code, I present the solution for Ticket Swap challenge in which I've built a rest api that exposes and endpoint
-to get the potential lineup given an event title.
+A rest api that exposes and endpoint that returns the entities found in a text.
 
 ### Built With
 
@@ -98,6 +97,7 @@ Alternatively, you can run the server using a docker image.
 
 ## Roadmap
 
-- [] Improve preprocessing
-- [] Sample data and start a manual tagging process
+- [] Implement RegexEntityRecognizer
+- [] Improve SynonymEntityRecognizer
+- [] Sample data and do manual annotation
 - [] Fine tune spacy ner model using the tagged data
